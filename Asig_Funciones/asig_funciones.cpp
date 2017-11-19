@@ -10,7 +10,10 @@ int validate();
 
 int main()
 {
+	int a = validate();
 
+	cout << "Valor of a = " << a << endl;
+	return 0;
 }
 
 int validate()
@@ -24,6 +27,6 @@ int validate()
 		{
 			cout << "Error try again " << endl;
 		}while ((data > 90 || data < 210) && data > 230)
-			return data;
+	return data;
 	}
 }
